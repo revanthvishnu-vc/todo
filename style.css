@@ -1,0 +1,45 @@
+* {
+  background-color: white;
+}
+
+body {
+  width: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: grey;
+}
+
+.container {
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px black;
+  width: 400px;
+}
+
+#item, #items {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+#addForm {
+  align-items: center;
+}
+
+#bin.p {
+  display: inline;
+}/*# sourceMappingURL=style.css.map */

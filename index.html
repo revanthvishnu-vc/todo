@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <!-- <link rel="stylesheet" href="./todo/todostyle.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h2>Add Tasks</h2>
+
+        <label id="lblsuccess" class="text-success" style="display: none;">
+        </label>
+
+        <form id="addForm">
+            <div class="row">
+
+                <input type="text" placeholder="Enter a task!!!" onkeyup="toggleButton(this, 'submit')" class="form-control" id="item">
+
+                <input type="submit" class="btn btn-dark" id="submit" value="Submit" disabled style="display: none;">
+
+            </div>
+        </form>
+
+        <h3 class="disp">Tasks:</h3>
+
+        <form id="addForm">
+            <ul class="list-group" id="items"></ul>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
